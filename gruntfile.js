@@ -27,5 +27,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('default', ['less', 'uglify']);
+    grunt.registerTask('build', ['less','uglify',]);
     };
